@@ -26,6 +26,10 @@ public class MainActivity extends AppCompatActivity {
 
         viewPager.setAdapter(adapter);
         tablayout.setupWithViewPager(viewPager);
+
+        tablayout.getTabAt(0).setIcon(R.drawable.ic_call);
+        tablayout.getTabAt(1).setIcon(R.drawable.ic_face);
+        tablayout.getTabAt(2).setIcon(R.drawable.ic_favorites);
     }
 
 }
