@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btn1 = findViewById(R.id.diallup);
+        /*
+        btn1 = (Button) findViewById(R.id.diallup);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -47,14 +48,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
-
+        */
 
         tablayout = (TabLayout) findViewById(R.id.tablayout);
         viewPager = (ViewPager) findViewById(R.id.viewpager);
         adapter = new ViewPagerAdapter(getSupportFragmentManager());
 
-        adapter.addFragment(new FragmentContact(), "Contacts");
-        adapter.addFragment(new FragmentFavoritos(), "Favorites");
+        adapter.addFragment(new FragmentContact(), getString(R.string.tabContacts));
+        adapter.addFragment(new FragmentFavoritos(), getString(R.string.tabFavorites));
 
         viewPager.setAdapter(adapter);
         tablayout.setupWithViewPager(viewPager);

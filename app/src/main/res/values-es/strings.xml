@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Directorio</string>
+    <string name="call">Llamada</string>
+    <string name="contact_name">nombre_contacto</string>
+    <string name="phone_number">numero_telefono</string>
+    <string name="tabContacts">Contactos</string>
+    <string name="tabFavorites">Favoritos</string>
+</resources>

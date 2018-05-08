@@ -43,6 +43,22 @@ public class FragmentContact extends Fragment {
 
         contactlist = new ArrayList<>();
         contactlist.add(new Contacts("Aaron Jones", "78716096", R.drawable.ic_call));
+        contactlist.add(new Contacts("Tom Jones", "74739179", R.drawable.ic_call));
+        contactlist.add(new Contacts("Indica Badu", "73528491", R.drawable.ic_call));
+        contactlist.add(new Contacts("Miles Morales", "70991680", R.drawable.ic_call));
+        contactlist.add(new Contacts("Jessie Eisenberg", "74829105", R.drawable.ic_call));
+        contactlist.add(new Contacts("Tom Holland", "78716094", R.drawable.ic_call));
+        contactlist.add(new Contacts("Josh Brolin", "74739579", R.drawable.ic_call));
+        contactlist.add(new Contacts("Javier Bardem", "73828491", R.drawable.ic_call));
+        contactlist.add(new Contacts("Eric Andre", "70991681", R.drawable.ic_call));
+        contactlist.add(new Contacts("Menelaus", "74829568", R.drawable.ic_call));
+        contactlist.add(new Contacts("Nostradamus", "7482905", R.drawable.ic_call));
+        contactlist.add(new Contacts("Fatima Rumualdo", "78716096", R.drawable.ic_call));
+        contactlist.add(new Contacts("Jessica Alba", "74821105", R.drawable.ic_call));
+        contactlist.add(new Contacts("Tony Stark", "78716096", R.drawable.ic_call));
+        contactlist.add(new Contacts("Steve Rogers", "71429105", R.drawable.ic_call));
+        contactlist.add(new Contacts("Zoe Saldana", "78716096", R.drawable.ic_call));
+        contactlist.add(new Contacts("Johanna Carranza", "79814205", R.drawable.ic_call));
 
     }
 
