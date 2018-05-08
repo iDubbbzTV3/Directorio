@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#40E0D0"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        
+        <TextView
+            android:id="@+id/changename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_name"
+            android:textColor="#FFF"
+            android:textSize="20sp"
+            android:layout_marginTop="80dp"
+            />
+        <TextView
+            android:id="@+id/changenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="@string/phone_number"
+            android:textColor="#FFF"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <Button
+            android:id="@+id/diallup"
+            android:drawableLeft="@drawable/ic_call"
+            android:textAlignment="textStart"
+            android:drawablePadding="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:text="@string/call"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start"
+            android:drawableStart="@drawable/ic_call" />
+
+    </LinearLayout>
+    
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="10dp"
+        android:src="@drawable/idubbbz"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/photo"
+        />
+</RelativeLayout>
